@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ViewPropTypes from 'prop-types';
-import { View, Animated, Platform, ViewPropTypes } from 'react-native';
+import { View, Animated, Platform } from 'react-native';
 import { Surface, Shape, Path, Group } from '../../react-native/Libraries/ART/ReactNativeART';
 
 import MetricsPath from 'art/metrics/path';
