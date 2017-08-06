@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import ViewPropTypes from 'prop-types';
 import { View, Animated, Platform, ViewPropTypes } from 'react-native';
 import { Surface, Shape, Path, Group } from '../../react-native/Libraries/ART/ReactNativeART';
 
@@ -57,14 +57,14 @@ export default class CircularProgress extends Component {
 
 CircularProgress.propTypes = {
   style: ViewPropTypes.style,
-  size: PropTypes.number.isRequired,
-  fill: PropTypes.number.isRequired,
-  width: PropTypes.number.isRequired,
-  tintColor: PropTypes.string,
-  backgroundColor: PropTypes.string,
-  rotation: PropTypes.number,
-  linecap: PropTypes.string,
-  children: PropTypes.func
+  size: ViewPropTypes.number.isRequired,
+  fill: ViewPropTypes.number.isRequired,
+  width: ViewPropTypes.number.isRequired,
+  tintColor: ViewPropTypes.string,
+  backgroundColor: ViewPropTypes.string,
+  rotation: ViewPropTypes.number,
+  linecap: ViewPropTypes.string,
+  children: ViewPropTypes.func
 }
 
 CircularProgress.defaultProps = {
